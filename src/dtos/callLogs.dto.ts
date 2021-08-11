@@ -13,3 +13,17 @@ export class CreateCallLogDto {
   @IsNumber()
   public status: number;
 }
+
+export class EditCallLogDto {
+  @IsString()
+  public phoneNumber: string;
+
+  @IsNumber()
+  public date: Date;
+
+  @IsNumber()
+  public duration: number;
+
+  @IsNumber()
+  public status: number;
+}
