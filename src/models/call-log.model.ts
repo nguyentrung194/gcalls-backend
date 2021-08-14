@@ -14,8 +14,19 @@ const callLogSchema: Schema = new Schema({
     type: Number,
     required: true,
   },
-  status: {
-    type: Number,
+  event: {
+    type: String,
+    required: true,
+  },
+  originator: {
+    type: String,
+    required: true,
+  },
+  name: {
+    type: String,
+  },
+  from: {
+    type: String,
     required: true,
   },
 });

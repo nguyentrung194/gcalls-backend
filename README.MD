@@ -1,0 +1,4 @@
+- cài đặt sẵn docker
+- dùng yarn hoặc npm i để cài đặt các gói cần thiết
+- trên thư mục gốc gõ lệnh docker-compose -f "docker-compose.yml" up hoặc click chuột phải vào tệp chọn Compose Up
+- chạy lệnh yarn dev để khởi chạy backend

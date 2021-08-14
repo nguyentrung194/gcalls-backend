@@ -3,5 +3,8 @@ export interface CallLog {
   phoneNumber: string;
   date: Date;
   duration: number;
-  status: number;
+  event: string;
+  originator: string;
+  name: string;
+  from: string;
 }
